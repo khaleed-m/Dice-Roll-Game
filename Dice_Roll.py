@@ -114,3 +114,6 @@ button = tk.Button(window, text="Roll Dice 🎲", command=roll_dice,
 button.place(x=190, y=20)
 
 window.mainloop()
+# Note: Ensure you have the required sound files (roll.mp3, win.mp3, lose.mp3, encouragement.mp3) in the same directory as this script.
+# Also, ensure you have the Pillow and playsound libraries installed:   pip install Pillow playsound
+# You can adjust the image paths and sound file names as per your directory structure.
