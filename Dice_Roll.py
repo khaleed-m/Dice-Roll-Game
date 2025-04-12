@@ -114,4 +114,3 @@ button = tk.Button(window, text="Roll Dice 🎲", command=roll_dice,
 button.place(x=190, y=20)
 
 window.mainloop()
-
