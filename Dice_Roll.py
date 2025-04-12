@@ -14,7 +14,12 @@ dice =["inverted-dice-1.png", "inverted-dice-2.png", "inverted-dice-3.png",
 image1 = ImageTk.PhotoImage(Image.open(random.choice(dice)))
 image2 = ImageTk.PhotoImage(Image.open(random.choice(dice)))
 
-#image_label = tk.Label(window, image=image1, bg="lightblue")
+# Create a label to display the image of the dice
+image_label = tk.Label(window, image=image1, bg="lightblue")
+image_label.pack(pady=20)
+image_label2 = tk.Label(window, image=image2, bg="lightblue")
+image_label2.pack(pady=20)
+
 
 # Load images for dice faces
 dice_images = [ImageTk.PhotoImage(Image.open(f"dice_{i}.png")) for i in range(1, 7)]
